@@ -1,0 +1,41 @@
+{
+  "id": "BEUgXlNlYcZ5g9mTFI8r",
+  "informationsPersonnelles": {
+    "nom": "david",
+    "prenom": "Rouat",
+    "email": "rouat.david@orange.fr",
+    "telephone": "0658123042",
+    "etape": "R2",
+    "date": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1761826395,
+      "nanoseconds": 402000000
+    },
+    "rgpd": true,
+    "commentaire": ""
+  },
+  "informationsEntreprise": {
+    "nomEntreprise": "Rouat david",
+    "entreprise": "Rouat david",
+    "metier": "Peintre",
+    "secteurActivite": "Auvergne-Rhône-Alpes",
+    "raisonSociale": "",
+    "anneeCreation": "",
+    "nombreCollaborateurs": "1",
+    "prestation": "Peintre",
+    "rayonIntervention": "01800",
+    "certifications": "",
+    "garanties": "",
+    "partenaires": ""
+  },
+  "siteWebEtCommunication": {
+    "siteWebExistant": false,
+    "siteWebURL": "",
+    "logo": false,
+    "sitePret": false
+  },
+  "metadonnees": {
+    "dateExport": "2025-11-03T12:18:50.405Z",
+    "exportePar": "Admin Trouver Mon Chantier"
+  }
+}

@@ -14,28 +14,28 @@ export interface SEOConfig {
 }
 
 export const seoConfig: SEOConfig = {
-  title: "AYA PRO - Rénovation Intérieure et Extérieure en PACA",
-  description: "AYA PRO, entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture et charpente. Devis gratuit en région PACA, Aix-en-Provence.",
+  title: "ROUAT DAVID - Peintre Professionnel en Auvergne-Rhône-Alpes",
+  description: "ROUAT DAVID, entrepreneur du bâtiment spécialisé en peinture intérieure et extérieure. Devis gratuit en Auvergne-Rhône-Alpes, 01800.",
   keywords: [
-    "rénovation intérieure PACA",
-    "peinture Aix-en-Provence",
-    "plomberie région PACA",
-    "toiture charpente Aix",
-    "entrepreneur bâtiment PACA",
-    "rénovation maison Aix-en-Provence",
+    "peinture intérieure Auvergne-Rhône-Alpes",
+    "peinture extérieure 01800",
+    "peintre professionnel Auvergne",
+    "finitions peinture Rhône-Alpes",
+    "entrepreneur bâtiment 01800",
+    "peinture maison Auvergne-Rhône-Alpes",
     "travaux peinture intérieure",
-    "aménagement intérieur",
-    "rénovation complète",
-    "travaux toiture",
+    "peinture décorative",
+    "ravalement façade",
+    "finitions professionnelles",
     "devis gratuit",
-    "AYA PRO",
-    "Mossaddak Mraihi",
-    "rénovation PACA",
+    "ROUAT DAVID",
+    "David Rouat",
+    "peinture Auvergne",
     "entrepreneur bâtiment"
   ],
-  author: "Mossaddak Mraihi",
-  siteUrl: "https://ayapro.fr",
-  siteName: "AYA PRO - Rénovation",
+  author: "David Rouat",
+  siteUrl: "https://rouat-david.fr",
+  siteName: "ROUAT DAVID - Peinture",
   locale: "fr_FR",
   type: "website",
   image: "/og-image.jpg",
@@ -116,50 +116,50 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${seoConfig.siteUrl}#organization`,
-  "name": "AYA PRO",
-  "legalName": "Aya pro - Entreprise de rénovation",
+  "name": "ROUAT DAVID",
+  "legalName": "Rouat David - Entrepreneur du bâtiment",
   "url": seoConfig.siteUrl,
   "logo": `${seoConfig.siteUrl}/logo.png`,
   "image": `${seoConfig.siteUrl}/og-image.jpg`,
   "description": seoConfig.description,
   "founder": {
     "@type": "Person",
-    "name": "Mossaddak Mraihi"
+    "name": "David Rouat"
   },
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Aix-en-Provence",
-    "postalCode": "13100",
-    "addressRegion": "PACA",
+    "addressLocality": "01800",
+    "postalCode": "01800",
+    "addressRegion": "Auvergne-Rhône-Alpes",
     "addressCountry": "FR"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+33668924579",
+    "telephone": "+33658123042",
     "contactType": "customer service",
-    "email": "mraihi_7777@yahoo.com",
+    "email": "rouat.david@orange.fr",
     "availableLanguage": "French"
   },
   "areaServed": [
     {
       "@type": "AdministrativeArea",
-      "name": "PACA"
+      "name": "Auvergne-Rhône-Alpes"
     },
     {
       "@type": "AdministrativeArea", 
-      "name": "Bouches-du-Rhône"
+      "name": "Ain"
     },
     {
       "@type": "City",
-      "name": "Aix-en-Provence"
+      "name": "01800"
     }
   ],
   "serviceType": [
-    "Rénovation intérieure",
-    "Peinture", 
-    "Plomberie",
-    "Toiture et charpente",
-    "Travaux de rénovation"
+    "Peinture intérieure",
+    "Peinture extérieure", 
+    "Finitions et décoration",
+    "Ravalement de façade",
+    "Travaux de peinture"
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 08:00-18:00",
@@ -172,37 +172,37 @@ export const organizationSchema = {
 export const servicesSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Construction Services",
+  "serviceType": "Painting Services",
   "provider": {
     "@id": `${seoConfig.siteUrl}#organization`
   },
   "areaServed": organizationSchema.areaServed,
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Services de rénovation",
+    "name": "Services de peinture",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Rénovation intérieure",
-          "description": "Rénovation complète de vos espaces intérieurs, aménagement et modernisation"
+          "name": "Peinture intérieure",
+          "description": "Travaux de peinture intérieure professionnels avec finitions parfaites"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Peinture et plomberie",
-          "description": "Travaux de peinture intérieure et extérieure, services de plomberie complets"
+          "name": "Peinture extérieure",
+          "description": "Peinture extérieure et ravalement de façades avec produits adaptés"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service", 
-          "name": "Toiture et charpente",
-          "description": "Travaux de toiture, réfection et entretien de charpente"
+          "name": "Finitions et décoration",
+          "description": "Techniques de peinture décorative et finitions spéciales"
         }
       }
     ]

@@ -21,68 +21,41 @@ export default function Home() {
   });
   const servicesData = [
     {
-      title: "Rénovation Intérieure",
-      subtitle: "Aménagement et rénovation",
-      content: "Rénovation complète de vos espaces intérieurs. Intervention professionnelle pour transformer et moderniser votre habitat selon vos besoins.",
-      image: "/placo.png",
+      title: "Peinture Intérieure",
+      subtitle: "Peinture et finitions intérieures",
+      content: "Travaux de peinture intérieure professionnels. Application soignée pour transformer et embellir vos espaces de vie avec des finitions parfaites.",
+      image: "/peinture.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/renovation-interieure"
+      href: "/services/peinture"
     },
     {
-      title: "Peinture",
-      subtitle: "Travaux de peinture",
-      content: "Travaux de peinture intérieure et extérieure. Application professionnelle pour donner une nouvelle vie à vos murs et façades.",
-      image: "/plomberie.png",
+      title: "Peinture Extérieure",
+      subtitle: "Ravalement et protection",
+      content: "Peinture extérieure et ravalement de façades. Protection et embellissement de vos murs extérieurs avec des produits adaptés aux intempéries.",
+      image: "/maison-work.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
       href: "/services/peinture"
     },
     {
-      title: "Plomberie",
-      subtitle: "Installation et réparation",
-      content: "Services de plomberie complets : installation, réparation et maintenance. Solutions adaptées pour tous vos besoins en plomberie.",
+      title: "Finitions & Décoration",
+      subtitle: "Techniques décoratives",
+      content: "Techniques de peinture décorative et finitions spéciales. Création d'ambiances uniques avec des effets de matière et de couleur.",
       image: "/plomberie.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/plomberie"
-    },
-    {
-      title: "Carrelage",
-      subtitle: "Pose professionnelle",
-      content: "Pose de carrelage sol et mural, faïence, mosaïque. Finitions parfaites avec étanchéité garantie pour tous vos projets.",
-      image: "/mur.png",
-      gradientFrom: "#6f42c1",
-      gradientTo: "#e83e8c",
-      href: "/services/carrelage"
-    },
-    {
-      title: "Salle de Bain",
-      subtitle: "Rénovation complète",
-      content: "Création et rénovation de salles de bain sur mesure. Du design à la réalisation, nous vous accompagnons dans votre projet.",
-      image: "/maison-work.png",
-      gradientFrom: "#17a2b8",
-      gradientTo: "#6610f2",
-      href: "/services/salle-de-bain"
-    },
-    {
-      title: "Toiture & Charpente",
-      subtitle: "Couverture et structure",
-      content: "Travaux de toiture et charpente. Expertise professionnelle pour la réfection, réparation et entretien de votre couverture.",
-      image: "/mur.png",
-      gradientFrom: "#fd7e14",
-      gradientTo: "#ffc107",
-      href: "/services/toiture-charpente"
+      href: "/services/peinture"
     }
   ];
 
 
 
   const contactInfo = {
-    address: "Aix-en-Provence\nRégion PACA\nRayon d'intervention : 50 km autour d'Aix",
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Aix-en-Provence,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    address: "01800\nAuvergne-Rhône-Alpes\nRayon d'intervention : 50 km autour de 01800",
+    phone: "06 58 12 30 42",
+    email: "rouat.david@orange.fr",
+    mapEmbedUrl: "https://maps.google.com/maps?q=01800,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -133,7 +106,7 @@ export default function Home() {
       <TeamSection config={config.team} />
       <ContactSection 
         title="Contactez-nous"
-        subtitle="Parlons de votre projet de rénovation intérieure, peinture, plomberie ou toiture en région PACA"
+        subtitle="Parlons de votre projet de peinture intérieure ou extérieure en Auvergne-Rhône-Alpes"
         contactInfo={contactInfo} 
       />
 

@@ -62,8 +62,8 @@ export default function MerciPage() {
               Que se passe-t-il maintenant ?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Nous avons bien reçu votre demande et nous vous remercions de votre confiance. 
-              Notre équipe va étudier votre projet et vous recontacter rapidement.
+              J'ai bien reçu votre demande et je vous remercie de votre confiance. 
+              Je vais étudier votre projet de peinture et vous recontacter rapidement.
             </p>
           </div>
 
@@ -81,7 +81,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Analyse de votre demande</h3>
                 <p className="text-gray-600 text-sm">
-                  Nous étudions votre demande de rénovation et préparons notre intervention.
+                  J'étudie votre demande de peinture et prépare mon intervention.
                 </p>
               </div>
             </motion.div>
@@ -98,7 +98,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Prise de contact sous 24h</h3>
                 <p className="text-gray-600 text-sm">
-                  Notre équipe AYA PRO vous contacte pour affiner votre demande et planifier les travaux de rénovation.
+                  ROUAT DAVID vous contacte pour affiner votre demande et planifier les travaux de peinture.
                 </p>
               </div>
             </motion.div>
@@ -115,7 +115,7 @@ export default function MerciPage() {
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Devis personnalisé</h3>
                 <p className="text-gray-600 text-sm">
-                  Recevez un devis détaillé pour vos travaux de rénovation.
+                  Recevez un devis détaillé pour vos travaux de peinture.
                 </p>
               </div>
             </motion.div>
@@ -129,7 +129,7 @@ export default function MerciPage() {
             transition={{ duration: 0.6, delay: 1.8 }}
           >
             <h3 className="font-semibold text-gray-900 mb-4 text-center">
-              Une question ? Contactez-nous
+              Une question ? Contactez-moi
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">
@@ -137,7 +137,7 @@ export default function MerciPage() {
                   <Phone className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">06 68 92 45 79</p>
+                  <p className="font-medium text-gray-900">06 58 12 30 42</p>
                   <p className="text-sm text-gray-600">Lun-Ven 9h-18h</p>
                 </div>
               </div>
@@ -146,7 +146,7 @@ export default function MerciPage() {
                   <Mail className="h-5 w-5 text-orange-600" />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-900">mraihi_7777@yahoo.com</p>
+                  <p className="font-medium text-gray-900">rouat.david@orange.fr</p>
                   <p className="text-sm text-gray-600">Réponse sous 2h</p>
                 </div>
               </div>

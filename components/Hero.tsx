@@ -25,12 +25,12 @@ export default function Hero({
   config,
   backgroundImage,
   backgroundVideo,
-  title = "AYA PRO - Spécialiste rénovation intérieure et extérieure en PACA",
-  description = "Entrepreneur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Votre partenaire de confiance pour tous vos projets de rénovation en région PACA.",
+  title = "ROUAT DAVID - Peintre professionnel en Auvergne-Rhône-Alpes",
+  description = "Entrepreneur du secteur du bâtiment spécialisé en peinture intérieure et extérieure. Votre partenaire de confiance pour tous vos projets de peinture et rénovation en Auvergne-Rhône-Alpes.",
   bulletPoints = [
-    "Spécialiste rénovation intérieure",
-    "Expert peinture, plomberie, toiture",
-    "Intervention en région PACA (Aix-en-Provence)"
+    "Spécialiste peinture intérieure et extérieure",
+    "Expert en finitions et décoration",
+    "Intervention en Auvergne-Rhône-Alpes (01800)"
   ],
   googleReviewsWidget
 }: HeroProps) {

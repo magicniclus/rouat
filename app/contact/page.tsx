@@ -46,11 +46,11 @@ export default function ContactPage() {
   };
 
   const contactInfo = {
-    address: "Zone d'intervention :\nAix-en-Provence\nRégion PACA\n50 km autour d'Aix",
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
+    address: "Zone d'intervention :\n01800\nAuvergne-Rhône-Alpes\n50 km autour de 01800",
+    phone: "06 58 12 30 42",
+    email: "rouat.david@orange.fr",
     hours: "Lundi - Vendredi: 8h00 - 18h00\nSamedi: 8h00 - 12h00",
-    mapEmbedUrl: "https://maps.google.com/maps?q=Aix-en-Provence,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
+    mapEmbedUrl: "https://maps.google.com/maps?q=01800,France&t=&z=12&ie=UTF8&iwloc=&output=embed"
   };
 
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
               Contactez-nous
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Un projet de rénovation intérieure, peinture, plomberie ou toiture ? Notre équipe AYA PRO est là pour vous accompagner en région PACA.
+              Un projet de peinture intérieure ou extérieure ? ROUAT DAVID est là pour vous accompagner en Auvergne-Rhône-Alpes.
             </p>
           </motion.div>
         </div>
@@ -217,7 +217,7 @@ export default function ContactPage() {
             >
               {/* Contact Information */}
               <div className="bg-gray-50 rounded-2xl p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-8">Nos coordonnées</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-8">Mes coordonnées</h3>
                 
                 <div className="space-y-6">
                   {/* Address */}
@@ -307,7 +307,7 @@ export default function ContactPage() {
               Besoin d'un devis rapide ?
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Appelez-nous directement pour obtenir une estimation gratuite de vos interventions techniques.
+              Appelez-moi directement pour obtenir une estimation gratuite de vos travaux de peinture.
             </p>
             <Button
               size="lg"

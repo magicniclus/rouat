@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "AYA PRO",
-    "legalName": "Aya pro - Entreprise de rénovation",
-    "address": "Aix-en-Provence, PACA",
-    "phone": "06 68 92 45 79",
-    "email": "mraihi_7777@yahoo.com",
-    "siret": "EURL",
-    "ceo": "MOSSADDAK MRAIHI"
+    "name": "ROUAT DAVID",
+    "legalName": "Rouat David - Entrepreneur du bâtiment",
+    "address": "01800, Auvergne-Rhône-Alpes",
+    "phone": "06 58 12 30 42",
+    "email": "rouat.david@orange.fr",
+    "siret": "Entrepreneur",
+    "ceo": "DAVID ROUAT"
   },
   "hero": {
-    "title": "AYA PRO - Spécialiste rénovation intérieure et extérieure en PACA",
-    "subtitle": "Entrepreneur du secteur du bâtiment spécialisé en rénovation intérieure, peinture, plomberie, toiture, charpente et terrasse. Votre partenaire de confiance pour tous vos projets de rénovation dans le secteur du BTP en région PACA.",
+    "title": "ROUAT DAVID - Peintre professionnel en Auvergne-Rhône-Alpes",
+    "subtitle": "Entrepreneur du secteur du bâtiment spécialisé en peinture intérieure et extérieure. Votre partenaire de confiance pour tous vos projets de peinture et rénovation en Auvergne-Rhône-Alpes.",
     "buttonText": "Demander un devis",
     "buttonHref": "#contact",
     "backgroundImage": "",
@@ -20,9 +20,9 @@
     "sections": [
       {
         "smallTitle": "Notre expertise",
-        "title": "Spécialiste de la rénovation",
-        "subtitle": "Expert en rénovation intérieure et extérieure",
-        "content": "AYA PRO est spécialisée dans les travaux de rénovation intérieure et extérieure. Nous mettons notre expertise au service de vos projets de rénovation : peinture, plomberie, toiture, charpente et terrasse. Notre mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en région PACA.",
+        "title": "Spécialiste de la peinture",
+        "subtitle": "Expert en peinture intérieure et extérieure",
+        "content": "ROUAT DAVID est spécialisé dans les travaux de peinture intérieure et extérieure. Je mets mon expertise au service de vos projets de peinture et rénovation. Ma mission : apporter un service de qualité, rapide et efficace, dans le respect des délais et des normes en Auvergne-Rhône-Alpes.",
         "image": "/maison-work.png",
         "gradientFrom": "#ff7e5f",
         "gradientTo": "#feb47b",
@@ -31,10 +31,10 @@
         "reversed": false
       },
       {
-        "smallTitle": "Nos spécialités",
-        "title": "Travaux de rénovation complets",
-        "subtitle": "Expert en rénovation et aménagement",
-        "content": "Ce qui nous distingue, c'est notre expertise technique, notre rigueur et notre relation de confiance avec nos clients. Chaque chantier est pour nous une nouvelle occasion de prouver que la rénovation peut allier qualité et efficacité. Nous maîtrisons parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
+        "smallTitle": "Mes spécialités",
+        "title": "Travaux de peinture professionnels",
+        "subtitle": "Expert en peinture et finitions",
+        "content": "Ce qui me distingue, c'est mon expertise technique, ma rigueur et ma relation de confiance avec mes clients. Chaque chantier est pour moi une nouvelle occasion de prouver que la peinture peut allier qualité et efficacité. Je maîtrise parfaitement les normes techniques et de sécurité en vigueur dans le secteur du bâtiment.",
         "image": "/plomberie.png",
         "gradientFrom": "#667eea",
         "gradientTo": "#764ba2",
@@ -45,39 +45,39 @@
     ]
   },
   "gallery": {
-    "title": "Nos Réalisations",
-    "subtitle": "Découvrez nos travaux de rénovation intérieure, peinture, plomberie, toiture et terrasse en région PACA",
+    "title": "Mes Réalisations",
+    "subtitle": "Découvrez mes travaux de peinture intérieure et extérieure en Auvergne-Rhône-Alpes",
     "initialDisplayCount": 4,
     "images": [
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Rénovation intérieure",
-        "title": "Rénovation intérieure - Aix-en-Provence"
+        "alt": "Peinture intérieure",
+        "title": "Peinture intérieure - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
         "alt": "Travaux de peinture",
-        "title": "Travaux de peinture - PACA"
+        "title": "Travaux de peinture - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&h=800&fit=crop",
-        "alt": "Plomberie",
-        "title": "Plomberie - Aix-en-Provence"
+        "alt": "Peinture extérieure",
+        "title": "Peinture extérieure - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&h=800&fit=crop",
-        "alt": "Toiture et charpente",
-        "title": "Toiture et charpente - PACA"
+        "alt": "Finitions peinture",
+        "title": "Finitions peinture - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
-        "alt": "Aménagement terrasse",
-        "title": "Aménagement terrasse - Aix"
+        "alt": "Peinture décorative",
+        "title": "Peinture décorative - Auvergne-Rhône-Alpes"
       },
       {
         "src": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=800&fit=crop",
-        "alt": "Rénovation complète",
-        "title": "Rénovation complète - PACA"
+        "alt": "Peinture professionnelle",
+        "title": "Peinture professionnelle - Auvergne-Rhône-Alpes"
       }
     ]
   },
@@ -88,9 +88,9 @@
   "team": {
     "members": [
       {
-        "name": "Mossaddak Mraihi",
-        "position": "Fondateur & Expert Rénovation",
-        "description": "Passionné par le secteur du bâtiment, j'ai créé AYA PRO pour offrir des services de rénovation de qualité. Expert en rénovation intérieure, peinture, plomberie, toiture et charpente, je mets mon expertise au service de vos projets en région PACA. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
+        "name": "David Rouat",
+        "position": "Entrepreneur du bâtiment & Expert Peinture",
+        "description": "Passionné par le secteur du bâtiment, je suis spécialisé dans les travaux de peinture intérieure et extérieure. Expert en peinture et finitions, je mets mon expertise au service de vos projets en Auvergne-Rhône-Alpes. Mon engagement : vous offrir un service de qualité, rapide et efficace, avec un souci constant du détail.",
         "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
       }
     ]
