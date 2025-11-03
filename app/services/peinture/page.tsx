@@ -1,19 +1,18 @@
-import ServicePage from '@/components/ServicePage';
-import { generateServiceMetadata } from '@/lib/service-metadata';
+import ServicePage, { generateServiceMetadata } from '@/components/ServicePage';
 import { Metadata } from 'next';
 
 // Configuration de la page peinture
 const peintureConfig = {
   // SEO et métadonnées
-  title: "Peinture PACA - Aix-en-Provence",
-  description: "AYA PRO, spécialiste travaux de peinture en région PACA. Peinture intérieure et extérieure. Devis gratuit et personnalisé pour tous vos projets.",
+  title: "Peinture Auvergne-Rhône-Alpes - ROUAT DAVID",
+  description: "ROUAT DAVID, spécialiste travaux de peinture en Auvergne-Rhône-Alpes. Peinture intérieure et extérieure. Devis gratuit et personnalisé pour tous vos projets.",
   keywords: [
-    "peinture PACA",
-    "peintre Aix-en-Provence",
+    "peinture Auvergne-Rhône-Alpes",
+    "peintre 01800",
     "peinture intérieure",
     "peinture extérieure",
     "devis peinture gratuit",
-    "travaux peinture PACA",
+    "travaux peinture Auvergne",
     "entrepreneur peintre",
     "peinture façade",
     "rénovation peinture"
@@ -21,16 +20,16 @@ const peintureConfig = {
   
   // Contenu principal
   serviceName: "Peinture",
-  heroImage: "/plomberie.png",
+  heroImage: "/peinture.png",
   heroTitle: "Travaux de Peinture Professionnels",
-  heroSubtitle: "Peinture intérieure et extérieure en région PACA. Application professionnelle avec devis gratuit et personnalisé.",
+  heroSubtitle: "Peinture intérieure et extérieure en Auvergne-Rhône-Alpes. Application professionnelle avec devis gratuit et personnalisé.",
   
   // Secteur d'activité
   sector: "BTP - Peinture",
-  location: "PACA",
+  location: "Auvergne-Rhône-Alpes",
   
   // Contenu détaillé
-  mainDescription: "AYA PRO, entrepreneur spécialisé en travaux de peinture en région PACA, vous accompagne dans tous vos projets de peinture intérieure et extérieure. Que vous souhaitiez rafraîchir vos murs, rénover votre façade ou créer une ambiance personnalisée, nous vous proposons une prestation complète avec des finitions soignées. Notre expertise dans le secteur du BTP nous permet de vous conseiller sur le choix des couleurs et des finitions adaptées à vos besoins.",
+  mainDescription: "ROUAT DAVID, entrepreneur spécialisé en travaux de peinture en Auvergne-Rhône-Alpes, vous accompagne dans tous vos projets de peinture intérieure et extérieure. Que vous souhaitiez rafraîchir vos murs, rénover votre façade ou créer une ambiance personnalisée, je vous propose une prestation complète avec des finitions soignées. Mon expertise dans le secteur du BTP me permet de vous conseiller sur le choix des couleurs et des finitions adaptées à vos besoins.",
   
   // Sous-prestations
   subServices: [
@@ -70,35 +69,33 @@ const peintureConfig = {
   
   // Avantages/Points forts
   advantages: [
+    "Devis gratuit et personnalisé",
+    "Estimation gratuite et sans engagement",
+    "Tarification transparente",
     "Application professionnelle garantie",
     "Matériaux de qualité supérieure",
     "Finitions parfaites et durables",
     "Conseil personnalisé en couleurs",
-    "Devis gratuit et personnalisé",
     "Respect des délais convenus",
     "Protection soignée de vos biens",
-    "Garantie sur tous les travaux",
-    "Tarification transparente",
-    "Estimation gratuite et sans engagement"
+    "Garantie sur tous les travaux"
   ],
   
   // Zone d'intervention
   serviceArea: [
-    "Aix-en-Provence",
-    "Région PACA",
-    "Bouches-du-Rhône",
-    "Marseille",
-    "Salon-de-Provence",
-    "Gardanne",
-    "Vitrolles",
-    "50 km autour d'Aix"
+    "01800 et environs",
+    "Auvergne-Rhône-Alpes",
+    "Ain (01)",
+    "50 km autour de 01800",
+    "Communes limitrophes",
+    "Sur devis pour zones éloignées"
   ],
   
   // Informations de contact
   contactInfo: {
-    phone: "06 68 92 45 79",
-    email: "mraihi_7777@yahoo.com",
-    address: "Aix-en-Provence, PACA"
+    phone: "06 58 12 30 42",
+    email: "rouat.david@orange.fr",
+    address: "01800, Auvergne-Rhône-Alpes"
   }
   
   // Pas de section pricing selon les instructions

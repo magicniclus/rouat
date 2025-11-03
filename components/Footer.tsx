@@ -15,9 +15,9 @@ export default function Footer() {
   ];
 
   const servicesLinks = [
-    { name: 'Peinture Intérieure', href: '/services/peinture' },
-    { name: 'Peinture Extérieure', href: '/services/peinture' },
-    { name: 'Finitions & Décoration', href: '/services/peinture' },
+    { name: 'Peinture Intérieure', href: '/services/peinture-interieure' },
+    { name: 'Peinture Extérieure', href: '/services/peinture-exterieure' },
+    { name: 'Finitions & Décoration', href: '/services/finitions-decoration' },
   ];
 
   return (

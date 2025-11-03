@@ -27,7 +27,7 @@ export default function Home() {
       image: "/peinture.png",
       gradientFrom: "#ff7e5f",
       gradientTo: "#feb47b",
-      href: "/services/peinture"
+      href: "/services/peinture-interieure"
     },
     {
       title: "Peinture Extérieure",
@@ -36,7 +36,7 @@ export default function Home() {
       image: "/maison-work.png",
       gradientFrom: "#667eea",
       gradientTo: "#764ba2",
-      href: "/services/peinture"
+      href: "/services/peinture-exterieure"
     },
     {
       title: "Finitions & Décoration",
@@ -45,7 +45,7 @@ export default function Home() {
       image: "/plomberie.png",
       gradientFrom: "#28a745",
       gradientTo: "#20c997",
-      href: "/services/peinture"
+      href: "/services/finitions-decoration"
     }
   ];
 

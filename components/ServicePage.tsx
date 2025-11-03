@@ -9,6 +9,7 @@ import { submitFormToFirebase, validateFormData, FormData } from '@/lib/firebase
 import FormLoader from '@/components/FormLoader';
 import { useRouter } from 'next/navigation';
 import { Metadata } from 'next';
+import { seoConfig } from '@/lib/seo-config';
 
 interface ServicePageProps {
   // SEO et métadonnées
@@ -55,6 +56,38 @@ interface ServicePageProps {
     description: string;
     priceRange: string;
   }[];
+}
+
+// Fonction pour générer les métadonnées SEO
+export function generateServiceMetadata(
+  serviceName: string,
+  location: string,
+  description: string,
+  keywords: string[]
+): Metadata {
+  const title = `${serviceName} ${location} - ROUAT DAVID | Devis Gratuit`;
+  const metaDescription = `${description} Devis gratuit et personnalisé en ${location}. Expert peintre professionnel.`;
+  
+  return {
+    title,
+    description: metaDescription,
+    keywords: [...keywords, 'devis gratuit', 'peintre professionnel', location].join(', '),
+    openGraph: {
+      title,
+      description: metaDescription,
+      type: 'website',
+      locale: 'fr_FR',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: metaDescription,
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
 }
 
 export default function ServicePage({
@@ -135,7 +168,7 @@ export default function ServicePage({
     "description": description,
     "provider": {
       "@type": "LocalBusiness",
-      "name": "RAFCOM",
+      "name": "ROUAT DAVID",
       "telephone": contactInfo.phone,
       "email": contactInfo.email,
       "address": {
@@ -315,35 +348,54 @@ export default function ServicePage({
                 </div>
               </motion.div>
 
-              {/* Prix indicatifs (si fournis) */}
-              {pricing && pricing.length > 0 && (
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: 0.6 }}
-                >
-                  <h3 className="text-2xl font-bold text-gray-900 mb-8">
-                    Tarifs indicatifs
-                  </h3>
-                  <div className="bg-gray-50 rounded-xl p-6">
-                    <div className="space-y-4">
-                      {pricing.map((price, index) => (
-                        <div key={index} className="flex justify-between items-center py-3 border-b border-gray-200 last:border-b-0">
-                          <div>
-                            <h4 className="font-semibold text-gray-900">{price.title}</h4>
-                            <p className="text-sm text-gray-600">{price.description}</p>
-                          </div>
-                          <span className="text-lg font-bold text-orange-500">{price.priceRange}</span>
-                        </div>
-                      ))}
-                    </div>
-                    <p className="text-sm text-gray-500 mt-4 italic">
-                      * Tarifs indicatifs, devis personnalisé sur demande
+              {/* Devis gratuit section (remplace pricing) */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                <h3 className="text-2xl font-bold text-gray-900 mb-8">
+                  Devis gratuit et personnalisé
+                </h3>
+                <div className="bg-gradient-to-r from-orange-50 to-orange-100 rounded-xl p-8 border border-orange-200">
+                  <div className="text-center">
+                    <h4 className="text-xl font-bold text-gray-900 mb-4">
+                      Estimation gratuite et sans engagement
+                    </h4>
+                    <p className="text-gray-700 mb-6">
+                      Obtenez un devis détaillé et personnalisé pour vos travaux de {serviceName.toLowerCase()}. 
+                      Tarification transparente et conseils d'expert inclus.
                     </p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                      <div className="flex items-center justify-center space-x-2">
+                        <Check className="h-5 w-5 text-orange-500" />
+                        <span className="text-sm font-medium">Devis gratuit</span>
+                      </div>
+                      <div className="flex items-center justify-center space-x-2">
+                        <Check className="h-5 w-5 text-orange-500" />
+                        <span className="text-sm font-medium">Sans engagement</span>
+                      </div>
+                      <div className="flex items-center justify-center space-x-2">
+                        <Check className="h-5 w-5 text-orange-500" />
+                        <span className="text-sm font-medium">Réponse rapide</span>
+                      </div>
+                    </div>
+                    <Button
+                      size="lg"
+                      className="bg-orange-500 hover:bg-orange-600 text-white shadow-lg hover:shadow-xl transition-all duration-300"
+                      onClick={() => {
+                        const contactForm = document.getElementById('contact-form');
+                        if (contactForm) {
+                          contactForm.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }}
+                    >
+                      Demander mon devis gratuit
+                    </Button>
                   </div>
-                </motion.div>
-              )}
+                </div>
+              </motion.div>
             </div>
 
             {/* Sidebar */}
